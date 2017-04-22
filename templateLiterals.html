@@ -9,9 +9,11 @@
   </div>
   <script type="text/javascript">
   let str = 'global';
-  const name = 'saravanan'
+  let name = 'saravanan';
+  let lname = 'mani';
+  let birthYear = '1983';
   function calStr(){
-    str = 'local';
+    str = `This is sentance to check the template literals for adding the names '${name} ${lname}' for the explanation along with the birth Year ${birthYear}`;
     //name = 'hema'
     console.log(str);
   }
